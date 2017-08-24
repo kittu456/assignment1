@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	double a, b, c, d, e;
+	cout << "what is the radius of the circle?";
+	cin >> a;
+	//the product of 2 and a is stored in variable b
+	b = 2 * a;
+	// prints product
+	cout << "the diameter of the circle is" << b << ".\n";
+	
+	//prduct of two numbers is stored in variable c
+	c = 3.14 * b;
+	//prints product
+	cout << "the circumference of the circle is " << c << ".\n";
+	
+	//the product of two numbers is stored in variable d
+	d = a * a;
+	//the product of two numbers is stored in variable e
+	e = 3.14 * d;
+	
+	//prints product
+	cout << "the area of the circle is " << e << ".";
+	
+	return 0;
+}
