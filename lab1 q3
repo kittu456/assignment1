@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a, b, c, d, e, f;
+	cout << "Enter two integers: ";
+	cin >> a >> b;
+	// sum of two numbers is stored in variable c
+	c = a + b;
+	
+	// prints sum
+	cout << a << "+" << b << "=" << c;
+	cout << "\n";
+	
+	// difference of two numbers is stored in variable d
+	d = a - b;
+	// prints difference
+	cout << a << "-" << b << "=" << d;
+	cout << "\n";
+	
+	//product of two numbers is stored in variable e
+	e = a * b;
+	// prints product "
+	cout << a << "*" << b << "=" <<e;
+	cout << "\n";
+	
+	//quotient when two numbers are divided is stored in f
+	f = a / b;
+	// prints quotient 
+	cout << a << "/" << b << "=" << f;
+	return 0;
+}
