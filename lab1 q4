@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a, b, c, d;
+	cout << "what is the length of the rectange";
+	cin >> a;
+	cout << "what is the breadth of the rectangle";
+	cin >> b;
+	
+	//sum of two variables is stored in variable c
+	c = a + b;
+	//the product of 2 and c is stored in variable d
+	d = 2 * c;
+	//prints product
+	cout << "the perimeter of the rectangle is " << d << ".";
+	return 0;
+}
