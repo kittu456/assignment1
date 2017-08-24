@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a, b, c;
+	cout << "what is the length of the rectange";
+	cin >> a;
+	cout << "what is the breadth of the rectangle";
+	cin >> b;
+	
+	//prduct of two variables is stored in variable c
+	c = a * b;
+	//prints product
+	cout << "the area of the rectangle is " << c << ".";
+	return 0;
+}
